@@ -1,14 +1,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/sample_user/endgame">
-    <img src="assets/logo.png" alt="Endgame Logo" width="100" height="100">
+  <a href="https://github.com/illichtz/techtree">
+    <img src="assets/logo.png" alt="TechTree Logo" width="100" height="100">
   </a>
 
-<h2 align="center">Endgame</h2>
+<h2 align="center">TechTree</h2>
 
 <p align="center">
-    A comprehensive to-do app designed to help you manage your tasks efficiently. View your tasks daily, weekly, monthly, and yearly with an intuitive UI, and organize them within projects. Keep your data secure with offline functionality and export backups easily!
+    TechTree provides a detailed view of technologies and their levels, offering a glimpse into future advancements. Create and manage your own tech trees, visualize technological progress, and export your data in JSON format for easy sharing and backup. Stay ahead with a structured view of technology evolution!
     <br />
 </p>
 </div>
@@ -18,21 +18,20 @@
 <!-- ABOUT THE APP -->
 ## About The App
 
-Endgame is a powerful to-do application that provides a user-friendly interface to help you organize your tasks and projects. With a clear view of your tasks across different timeframes—daily, weekly, monthly, and yearly—Endgame ensures that you stay on top of your schedule and manage your time effectively. Additionally, the app supports a project system where tasks can be grouped into folders, allowing for detailed organization.
+TechTree is an innovative application designed to help you explore and manage technological advancements. With TechTree, you can view and create detailed tech trees that showcase various technologies and their levels. The app allows for easy visualization of technology progress, enabling you to get knowledge and plan future advancements efficiently.
 
 Key features include:
-- **Intuitive Task Views**: View tasks by day, week, month, and year for better planning and time management.
-- **Project Organization**: Add tasks within folders to keep your projects structured and organized.
-- **Offline Functionality**: Endgame operates fully offline, ensuring your data remains private and secure.
-- **CSV Backup**: Easily export your tasks and projects to CSV format for backups or external use.
-- **Task Management UI**: A clear and easy-to-use interface to help you manage your tasks effectively.
+- **Tech Level Visualization**: Create and manage tech trees with various levels to understand the evolution of technologies.
+- **Detailed Tech Management**: Organize technologies within a structured tree format for a clear overview.
+- **JSON Export**: Export your tech trees as JSON files for backup or sharing with others.
+- **Intuitive UI**: A user-friendly interface that makes managing tech trees straightforward and efficient.
 
 <p align="center">
-  <img src="assets/screenshot1.jpg" alt="Endgame Screenshot 1" width="300px" style="margin: 10px;">
-  <img src="assets/screenshot2.jpg" alt="Endgame Screenshot 2" width="300px" style="margin: 10px;">
-  <img src="assets/screenshot3.jpg" alt="Endgame Screenshot 3" width="300px" style="margin: 10px;">
- <img src="assets/screenshot4.jpg" alt="Endgame Screenshot 4" width="300px" style="margin: 10px;">
- <img src="assets/screenshot5.jpg" alt="Endgame Screenshot 5" width="300px" style="margin: 10px;">
+  <img src="assets/screenshot1.jpg" alt="TechTree Screenshot 1" width="300px" style="margin: 10px;">
+  <img src="assets/screenshot2.jpg" alt="TechTree Screenshot 2" width="300px" style="margin: 10px;">
+  <img src="assets/screenshot3.jpg" alt="TechTree Screenshot 3" width="300px" style="margin: 10px;">
+  <img src="assets/screenshot4.jpg" alt="TechTree Screenshot 4" width="300px" style="margin: 10px;">
+  <img src="assets/screenshot5.jpg" alt="TechTree Screenshot 5" width="300px" style="margin: 10px;">
 </p>
 
 ---
@@ -40,34 +39,32 @@ Key features include:
 <!-- DOWNLOAD -->
 ## Download
 
-You can download the latest version of Endgame from the [Releases Page](https://github.com/illichtz/Endgame/releases/).
+You can download the latest version of TechTree from the [Releases Page](https://github.com/illichtz/techtree/releases/).
 
 ---
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Endgame is versatile and can be used in various scenarios:
-- **Task Management**: Organize your tasks by day, week, month, or year to prioritize your workload.
-- **Project Planning**: Group tasks within folders to manage larger projects efficiently.
-- **Data Backup**: Export your tasks and projects to CSV format for backup or further use.
+TechTree is versatile and can be used in various scenarios:
+- **Technology Exploration**: View and manage technologies across different levels to understand their progression.
+- **Tech Tree Creation**: Build and organize custom tech trees to visualize and plan technological advancements.
+- **Data Export**: Export your tech trees as JSON files for backup, sharing, or further analysis.
 
 ---
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Task views for day, week, month, and year
-- [x] Project system with tasks in folders
-- [x] CSV backup functionality
-- [ ] Dragging and sorting items
-- [ ] Faster loading speeds
-- [ ] Import backups
-- [ ] Task counting inside folders
-
+- [x] Visualization of tech levels and tree structure
+- [x] JSON export functionality
+- [ ] Enhanced accuracy in tech trees
+- [ ] Sharing and importing tech trees
+- [ ] Improved performance and features
+- [ ] Better UI and Technology images
 ---
 
 <!-- LICENSE -->
 ## License
 
-Endgame is licensed under the GNU General Public License (GPL-3.0). You can find the license text in the LICENSE file.
+TechTree is licensed under the GNU General Public License (GPL-3.0). You can find the license text in the LICENSE file.
