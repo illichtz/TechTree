@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/fragment_maketree_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Title for the Tech Category Input -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tech Category"
+                android:textStyle="bold"/>
+
+            <!-- Tech Category Input -->
+            <EditText
+                android:id="@+id/etTechCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter tech category"/>
+
+            <!-- Container for dynamically added tech and details -->
+            <LinearLayout
+                android:id="@+id/layoutTechInputContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp">
+                <!-- Initial tech and details input fields will be added here -->
+            </LinearLayout>
+
+            <!-- Container for buttons to add more tech and save tech tree -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:gravity="center_horizontal">
+
+                <!-- Button to add more tech and details input fields -->
+                <Button
+                    android:id="@+id/btnAddMoreTech"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add More Tech"
+                    android:textColor="@color/black"
+                    android:layout_marginEnd="8dp"/>
+
+                <!-- Submit Button -->
+                <Button
+                    android:id="@+id/btnSubmitTechTree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Save Tech Tree"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

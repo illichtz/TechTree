@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/techtreeFragment">
+
+    <fragment
+        android:id="@+id/techtreeFragment"
+        android:name="com.a101apps.techtree.TechtreeFragment"
+        android:label="fragment_techtree">
+        <action
+            android:id="@+id/action_techtreeFragment_to_maketreeFragment"
+            app:destination="@id/maketreeFragment">
+            <argument
+                android:name="techTreeId"
+                app:argType="string" />
+        </action>
+        <action
+            android:id="@+id/action_techtreeFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/maketreeFragment"
+        android:name="com.a101apps.techtree.MaketreeFragment"
+        android:label="fragment_maketree" />
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.a101apps.techtree.MenuFragment"
+        android:label="fragment_menu" />
+
+</navigation>
